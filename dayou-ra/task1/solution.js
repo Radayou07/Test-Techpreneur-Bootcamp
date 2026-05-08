@@ -7,7 +7,6 @@ const data = [
     { region: 'EU', product: 'Widget D', revenue: 920, orders: 4 },
 ];
 
-
 const total = (data, key) => {
   let sum = 0;
   for(let i = 0; i < data.length; i++) {
@@ -64,4 +63,5 @@ function groupAndAggregate(data) {
     },
   };
 };
+
 console.log(groupAndAggregate(data));

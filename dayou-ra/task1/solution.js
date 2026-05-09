@@ -64,4 +64,4 @@ function groupAndAggregate(data) {
   };
 };
 
-console.log(groupAndAggregate(data));
+module.exports = groupAndAggregate(data)

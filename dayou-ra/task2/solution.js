@@ -27,4 +27,4 @@ async function fetchWithRetry(url, maxRetries = 3){
 };  
 await fetchWithRetry(url)
 
-module.exports = fetchWithRetry;
+module.exports = fetchWithRetry(url, maxRetries);
